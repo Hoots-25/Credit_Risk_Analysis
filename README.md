@@ -1,4 +1,4 @@
-# Credit_Risk_Analysis
+# Credit Risk Analysis
 
 ## Overview
 Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. This analysis was completed to understand and compare various linear models with unbalanced classes. The scikit-learn libraries were used  - and the following models were tested and compared:
