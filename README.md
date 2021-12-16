@@ -12,30 +12,30 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 
 ## Results
 ### Naive Oversampling
-67% Accuracy Score
+65.5% Accuracy Score
 ![](./Resources/naive_oversampling.png)
 
 ### SMOTE Oversampling
-69% Accuracy Score
+67.4% Accuracy Score
 ![](./Resources/SMOTE_oversampling.png)
 
 ### Cluster Centroid Undersampling
-Accuracy Score N/A
+54.4% Accuracy Score
 ![](./Resources/cluster_centroid.png)
 
 ### SMOTEEN Combination Sampling
-64% Accuracy Score
+66.7% Accuracy Score
 ![](./Resources/SMOTEEN_combination.png)
 
 ### Easy Ensemble AdaBoost Classifier
-100% Accuracy Score
+93.2% Accuracy Score
 ![](./Resources/easy_ensemble_adaboost.png)
 
 ### Balanced Forest Classifier
-100% Accuracy Score
+78.8% Accuracy Score
 ![](./Resources/balanced_forest.png)
 
 
 ## Summary
-Based on this analysis, the easy ensemble and balanced forest classifier models should be used. Both models have a 100% accuracy score and should be trusted over the over, under and combination resampling models. The cluster centroid model was unable to converge on a fit. In this case, this undersampling model should not be used.
+Based on this analysis, the easy ensemble classifier models should be used. Thi model has a 93.2% accuracy score and should be trusted over the other under and combination resampling models. 
 
